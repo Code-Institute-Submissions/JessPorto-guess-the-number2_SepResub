@@ -14,5 +14,3 @@ def guess(x):
 
 
 guess(10)
-
-
