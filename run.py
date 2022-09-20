@@ -1,16 +1,18 @@
 import random
 
 
-def guessing_game(x):
-    random_number = random.randint(1, x)
-    player_guess = 0
-    while player_guess != random_number:
-        player_guess = int(input("Guess a number between 1 an 10: "))
-        if player_guess < random_number:
-            print("Sorry, guess again. Too low")
-        elif player_guess > random_number:
-            print("Sorry, guess again. Too righ")
-    print(f"Congrats. You have guessed the number {random_number} correctly!")
+def guessing_game():
+    random_number = random.randint(1, 10)  
+    while True:
+        text = input('Guess a number from 1 to 10: ')        
+        try:
+            player_guess = int(text)
+            if player_guess < 1 or player_guess > 10:
+                raise ValueError             
+        except ValueError:
+            print('{} is not valid.'.format(text))
+            continue        
+       
+        
+guessing_game()
 
-
-guessing_game(0)
