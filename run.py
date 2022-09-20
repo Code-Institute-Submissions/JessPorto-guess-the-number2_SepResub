@@ -25,4 +25,19 @@ def guessing_game():
 guessing_game()
 
 
+def menu():
+    while True:
+        print('(1) Play guess number game')
+        print('(Q) Quit')
+        choice = input('Enter your choice: ').lower()
+        if choice == '1':
+            guessing_game()
+        elif choice == 'q':
+            return False
+        else:
+            print(f'Not a correct choice: {choice}')
+
+            
+if __name__ == '__main__':
+    menu()
 
