@@ -1,3 +1,4 @@
+# random module imported to generate a random number
 import random
 
 
@@ -11,8 +12,17 @@ def guessing_game():
                 raise ValueError             
         except ValueError:
             print('{} is not valid.'.format(text))
-            continue        
-       
-        
+            continue
+        if player_guess != random_number and player_guess < random_number:
+            print("Sorry, guess again. Too low")
+        elif player_guess != random_number and player_guess > random_number:
+            print("Sorry, guess again. Too righ")
+        else:
+            break       
+    print(f"Congrats. You have guessed the number {random_number} correctly!")
+
+    
 guessing_game()
+
+
 
