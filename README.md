@@ -22,7 +22,7 @@ The game will tell the player immediately to guess a higher or lower number.
 #### Existing Features
 
 - Randon computer selection 
-  - Once the player choose computer will make a ramdom selection 
+  - Once the player choose computer will make a random selection 
    - The player will not be able to see that
 
 ####
@@ -51,13 +51,13 @@ The game will tell the player immediately to guess a higher or lower number.
 
   ####
   - Exit game 
-    - once the player press 'q' to exit it will be showed a banner and the game will finish.
+    - once the player press 'q' to exit it will be showed a message "Thank You" and the game will finish.
     ####
   ![Exit](/assets/images/ExitGame.JPG)
 
   ####
 - Input validation and error checking 
-  - if the player type invalid a input it will be validated
+  - if the player type invalid input it will be validated
   ###
 ![Validation](/assets/images/InputValidation.JPG)
 
@@ -67,20 +67,26 @@ The game will tell the player immediately to guess a higher or lower number.
 
 I have tested the project doing the following
 
-- passed on [PEP8](http://pep8online.com/). ()
-- Tried invalid inputs 
-- Tested on Heroku and the Terminal.
+   - passed on [PEP8](http://pep8online.com/). 
+   - Tried invalid inputs 
+   - Tested on Heroku and the Terminal.
+
+   ![test](/assets/images/pep8Test.JPG)
 
   #### Bugs
-
+   - Fixed error adding images to readme file, files added to a wrong folder.
  
 
   #### Remain Bugs
+  - No bugs remain
 
 
 
  #### Validator Testing 
  - [PEP8](http://pep8online.com/)
+   - Initially found a whitespace that where fixed, no Warnings left.
+   ![Test](/assets/images/pep8Error.JPG)
+ 
    
  #### Deployment 
 - When you create the app, you will need to add two buildpacks from the Settings tab. The ordering is as follows:
@@ -97,5 +103,5 @@ I have tested the project doing the following
    - [W3Schools](https://www.w3schools.com/python/python_datetime.asp)
    - [Code Institute](https://www.CodeInstitute.net)
    - [Youtube](https://www.youtube.com/)
-   - [pyfiglet](https://pypi.org/project/pyfiglet/0.7/)
+   
 
