@@ -74,7 +74,11 @@ I have tested the project doing the following
    ![test](/assets/images/pep8Test.JPG)
 
   #### Bugs
-   - Fixed error adding images to readme file, files added to a wrong folder.
+  Solved Bugs
+    - Validation problem
+    - Fixed error adding images to readme file, files added to a wrong folder.
+
+    
  
 
   #### Remain Bugs
