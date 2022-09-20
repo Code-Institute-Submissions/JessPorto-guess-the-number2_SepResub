@@ -5,13 +5,15 @@
 ###
 - The live link can be found here - [Guess The Number II](https://guess-the-number-2.herokuapp.com/) 
 
-![Responsive Mockup](/assets/images/AmIResponsiveScren.JPG)
+![Responsive Mockup](/assets/images/AmIresponsiveScreen.JPG)
 
 ## How to play 
 
 Guess The Number is a classic guessing game. 
+
 ######
 The user can play against the computer by inputting the values on the terminal. 
+
 ######
 The game will tell the player immediately to guess a higher or lower number.
 
@@ -22,44 +24,45 @@ The game will tell the player immediately to guess a higher or lower number.
 - Randon computer selection 
   - Once the player choose computer will make a ramdom selection 
    - The player will not be able to see that
+
 ####
 - Example when the player win 
 
-<img alt="Win" src="/assets/images/winWin.JPG" width="50%">
+![Win](/assets/images/winWin.JPG)
 
 ###
 
-- Example when the player lose  
+- Example when the player guessed a lower number 
 
-<img alt="Lower number" src="/assets/images/firstGuess.JPG" width="50%">
+![Lower number](/assets/images/firstGuess.JPG)
 
 ###
 
-- Example when the player Draw 
+- Example when the player guessed a higher number
   
 
-<img alt="Higher number" src="/assets/images/secondGuess.JPG" width="50%">
+![Higher number](/assets/images/secondGuess.JPG)
 
 ###
 - Play again 
   - When the game is finished the user will be prompeted to press '1' to play again or 'q' to exit the game.
 ###
-  <img alt="Play Again" src="/assets/images/playAgain.JPG" width="50%">
+![Play Again](/assets/images/playAgain.JPG)
 
   ####
   - Exit game 
     - once the player press 'q' to exit it will be showed a banner and the game will finish.
     ####
-      <img alt="Exit" src="/assets/images/ExitGame.JPG" width="50%">
+  ![Exit](/assets/images/ExitGame.JPG)
 
-      ####
+  ####
 - Input validation and error checking 
   - if the player type invalid a input it will be validated
   ###
-<img alt="validation" src="/assets/images/InputValidation.JPG" width="50%">
+![Validation](/assets/images/InputValidation.JPG)
 
 ####
-<img alt="validation2" src="/assets/images/" width="50%">
+![Validation2](/assets/images/InputValidation2.JPG)
 ### Testing
 
 I have tested the project doing the following
